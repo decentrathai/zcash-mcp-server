@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "zcash": {
+      "command": "node",
+      "args": [
+        "/path/to/zcash-mcp-server/index.js"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "zcash-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for private Zcash payments - enabling AI agents to send and receive shielded transactions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "mcp",
+    "zcash",
+    "privacy",
+    "payments",
+    "ai-agents",
+    "blockchain",
+    "model-context-protocol"
+  ],
+  "author": "decentrathai",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9",
+    "zod": "^3.24.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
